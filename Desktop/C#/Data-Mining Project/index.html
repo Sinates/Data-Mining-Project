@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <body style="background-color:pink;" text="#999"></body>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js></script>
+<link rel='stylesheet' href='style.css'>
+<script src='data.js'></script>
+<script src='config.js'></script>
+</head>
+<body>
+<div id="chart-container">
+   <canvas id="chart"></canvas>
+   </div>
+<div id='form'>
+<span>Year(x): 
+   <br><input type='text' id='year'></span><br><br>
+<span>Death (y): <br>
+   <input type='text' id='fatalities'></span> <br><br> 
+<span>Insert analysis :<br>
+    <button id='plot'>Input</button></span><br><br>
+<span>Forecast: <br>
+   <button id='predict'>Predict</button></span><br><br>
+<span>Output:<br> <span id='output'></span></span><br><br>
+</div>
+</body>
+<script src='script.js'></script>
+
+</html>
+
